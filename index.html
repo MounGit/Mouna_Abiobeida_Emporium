@@ -1,20 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./public/css/app.css">
 </head>
+
 <body>
-    
+
+    <!-- HDR NAVBAR -->
+
     <header>
-        <nav></nav>
+        <nav>
+            <img src="./public/img/logo.png" alt="">
+            <div class="container">
+                <ul>
+                    <li>HOME</li>
+                    <li>PRODUCT</li>
+                    <li>BLOG</li>
+                    <li>ELEMENTS</li>
+                    <li>ABOUT</li>
+                    <li>CONTACT</li>
+                </ul>
+                <button id="jour"></button>
+                <button id="nuit"></button>
+                <button id="co" class="bg-secondary">CONNEXION</button>
+            </div>
+        </nav>
     </header>
-    
 
 
+    <!-- SECTION 1 -->
+
+    <section class="sect1">
+        <div class="sect1Text">
+            <h3 class="text-danger">Shop at</h3>
+            <img src="./public/img/logo.png" alt="">
+            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring
+                which I enjoy with my.</p>
+            <button>SALE ITEMS</button>
+        </div>
+        <div class="sect1Img">
+            <img src="./public/img/slider-1.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- SECTION 2 -->
+
+    <section class="sect2">
+        <div class="sect2Living" style="background-image: url('./public/img/services/service-1.jpg');">
+            <div class="container">
+                <p>Living Room</p>
+
+            </div>
+        </div>
+        <div class="sect2Sale" style="background-image: url('./public/img/services/service-2.jpg');">
+            <div class="container">
+                <p>Sale Items</p>
+            </div>
+        </div>
+        <div class="sect2Clothes" style="background-image: url('./public/img/services/slider-3.jpg');">
+            <div class="container">
+                <p>Clothes</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3 -->
+
+    <section class="sect3">
+        <h3>Recents Products</h3>
+        <!-- GALERIE -->
+        <div class="sect3Gal">
+
+
+            <!-- GALERIE LIGNE 1 -->
+
+            <div class="sect3ImgLigne1">
+
+                <div class="sect3Card">
+                    <img src="./public/img/products_mini/product-luxry-sofa.jpg" alt="">
+                    <h6>Luxury Sofa</h6>
+                    <span>$600.00</span>
+                </div>
+
+                <div class="sect3CardSale">
+                    <img src="./public/img/products_mini/product-gloves.jpg" alt="">
+                    <div>
+                        <p class="btnSales">SALES!</p>
+                        <div>
+                            <h6>Leather Gloves</h6>
+                            <p>$34.00 <span>$27.00</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sect3Card">
+                    <img src="./public/img/products_mini/product-cups.jpg" alt="">
+                    <h6>Colorful Bowl</h6>
+                    <span>$18.00</span>
+                </div>
+            </div>
+
+            <!-- GALERIE LIGNE 2 -->
+
+            <div class="sect3ImgLigne2">
+
+                <div class="sect3CardSale">
+                    <img src="./public/img/products_mini/product-bag.jpg" alt="">
+                    <div>
+                        <p class="btnSales">SALES!</p>
+                        <div>
+                            <h6>Woman Bag</h6>
+                            <p>$420.00<span>$350.00</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sect3Card">
+                    <img src="./public/img/products_mini/product-tshitr.jpg" alt="">
+                    <h6>Minimal T-Shirt</h6>
+                    <span>$15.00</span>
+                </div>
+
+                <div class="sect3Card">
+                    <img src="./public/img/products_mini/product-plates.jpg" alt="">
+                    <h6>Plates Set</h6>
+                    <span>$30.00</span>
+                </div>
+            </div>
+
+            <!-- GALERIE LIGNE 3 -->
+
+            <div class="sect3ImgLigne3">
+
+                <div class="sect3Card">
+                    <img src="./public/img/products_mini/product-modern-sofa.jpg" alt="">
+                    <h6>Modern Sofa</h6>
+                    <span>$900.00</span>
+                </div>
+
+                <div class="sect3Card">
+                    <img src="./public/img/products_mini/product-bed.jpg" alt="">
+                    <h6>Bed Linen</h6>
+                    <span>$79.00</span>
+                </div>
+
+                <div class="sect3Card">
+                    <img src="./public/img/products_mini/product-shoes.jpg" alt="">
+                    <h6>Minimal Shoes</h6>
+                    <span>$60.00</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECTION 4 -->
+
+    <section class="sect4 w-100" style="background-image: url('./public/img/cta-bg.jpg');">
+        <h2>Discover Thousands Of Great Products</h2>
+        <button>LEARN MORE</button>
+    </section>
+
+    <!-- SECTION 5 -->
+
+    <section class="sect5">
+        <h2>Hot Fashion Products</h2>
+        <div class="carousel"></div>
+    </section>
+
+    <!-- SECTION 6 -->
+
+    <section class="sect6">
+
+        <div class="sect3Card bg-light">
+            <i class="far fa-check-circle"></i>
+            <h6>TRUSTED BY 10.000+ CUSTOMERS</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nulla facilis voluptatem? Corporis dolores,
+                facere repellendus consectetur esse praesentium vel?</p>
+            <button>LEARN MORE</button>
+        </div>
+
+        <div class="sect3Card bg-danger">
+            <i class="fas fa-paper-plane"></i>
+            <h6>VERY FAST SHIPPING</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nulla facilis voluptatem? Corporis dolores,
+                facere repellendus consectetur esse praesentium vel?</p>
+            <button>LEARN MORE</button>
+        </div>
+
+        <div class="sect3Card bg-light">
+            <i class="far fa-check-circle"></i>
+            <h6>TRUSTED BY 10.000+ CUSTOMERS</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nulla facilis voluptatem? Corporis dolores,
+                facere repellendus consectetur esse praesentium vel?</p>
+            <button>LEARN MORE</button>
+        </div>
+
+    </section>
+
+    <!-- FTR -->
+
+    <footer>
+        <div class="footer1 bg-secondary">
+            <div class="container">
+                <div class="ftrAbout">
+                    <h4>ABOUT US</h4>
+                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring
+                        which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot,
+                        which was created for the bliss of.</p>
+                </div>
+
+                <div class="ftrRecent">
+                    <h4>RECENTS POSTS</h4>
+                    <ul>
+                        <li>Hello World</li>
+                        <li>Wonderful serenity has taken</li>
+                        <li>In my soul and absorb its power</li>
+                        <li>I hear the buzz of the tittle</li>
+                    </ul>
+                </div>
+
+                <div class="ftrTag">
+                    <div>
+                        <button>business</button>
+                        <button>confidence</button>
+                        <button>gadgets</button>
+                    </div>
+                    <div>
+                        <button>identity</button>
+                        <button>logo</button>
+                        <button>photography</button>
+                    </div>
+                    <div>
+                        <button>time</button>
+                        <button>trips</button>
+                        <button>works</button>
+                    </div>
+                    <div>
+                        <button>work space</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="ftr2 bg-dark">
+            <p class="text-secondary">COPYRIGHT 2020 GOODLAYERS, ALL RIGHT RESERVED</p>
+        </div>
+    </footer>
 
     <script src="./public/js/main.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
+
 </html>
