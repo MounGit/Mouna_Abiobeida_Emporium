@@ -1,0 +1,68 @@
+footer
+    div
+        div
+            display: flex
+            justify-content: center
+            height: 280px
+            div:first-of-type, div:nth-of-type(2)
+                h4
+                    font-size: medium
+                    color: $gray-300
+                p
+                    height: 130px
+                    color: $gray-500
+                    width: 90%
+                ul
+                    height: 130px
+                    color: $gray-300
+                display: flex
+                flex-direction: column
+                // justify-content: space-evenly
+                width: 32%
+            div:last-of-type
+                h4
+                    font-size: medium
+                    color: $gray-300
+                    margin-bottom: 15px
+                display: flex
+                flex-direction: column
+                // justify-content: space-evenly
+
+                width: 32%
+                div
+                    height: 130px
+
+
+    .ftr2
+        p
+            text-align: center
+            padding: 20px
+            background-color: black
+            margin: 0
+
+button 
+    background-color: transparent
+    width: max-content
+    height: max-content
+    border: 1px solid $gray-500
+    border-radius: 3px
+    color: $gray-500
+    margin-right: 5px
+
+@media ( min-width: 320px ) and ( max-width: 800px )
+    footer
+        div
+            div
+                flex-direction: column
+                align-items: center
+                justify-content: center
+                height: 850px
+                // flex-wrap: wrap
+                div
+                    width: 100%
+                    p
+                        height: 40px
+                    ul
+                        width: 100%
+                        li
+                            width: 100%

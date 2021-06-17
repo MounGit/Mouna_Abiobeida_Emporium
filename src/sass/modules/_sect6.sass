@@ -1,0 +1,35 @@
+.sect6
+    display: flex
+    justify-content: space-evenly
+    margin-top: 100px
+    margin-bottom: 40px
+    div
+        width: 31%
+        height: 300px
+        display: flex
+        flex-direction: column
+        justify-content: space-around
+        align-items: center
+        padding: 30px
+        i
+        h6
+        p
+            font-size: smaller
+        button
+            color: white
+            border: none
+            border-radius: 3px
+            padding: 10px
+            font-size: smaller
+
+    .sect6CardG
+        background-color: $gray-300
+    .sect6Card
+        color: white
+
+@media ( min-width: 320px ) and ( max-width: 800px )
+    .sect6
+        flex-direction: column
+        div
+            width: 90%
+            margin-bottom: 10px
